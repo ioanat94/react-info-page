@@ -2,3 +2,19 @@ html, body {
     margin: 0;
     padding: 10px;
 }
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.nav-img {
+    width: 60px;
+}
